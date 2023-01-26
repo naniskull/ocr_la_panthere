@@ -1857,10 +1857,11 @@ abbr[title] {
 }
 
 blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid #eee
+}
+
+blockquote p{
+    font-size: 20px;
 }
 
 blockquote ol:last-child,
@@ -1922,14 +1923,6 @@ kbd,
 pre,
 samp {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace
-}
-
-code {
-    padding: 2px 4px;
-    font-size: 90%;
-    color: #c7254e;
-    background-color: #f9f2f4;
-    border-radius: 4px
 }
 
 kbd {
