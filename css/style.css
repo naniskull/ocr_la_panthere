@@ -43,11 +43,24 @@ a:hover {
     padding-right: 0;
 }
 
+.row__footer{
+    max-width: fit-content;
+}
+
+.container__footer{
+    display: flex;
+    justify-content: center;
+}
+
 .col-sm-12__contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.col-sm-12__contact > *{
+    color: white !important;
 }
 
 .bloc-lg {
@@ -183,11 +196,6 @@ label span{
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("../img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -288,7 +296,7 @@ label span{
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0,);
 }
 
 .d-bloc .panel button:hover,
@@ -446,6 +454,17 @@ label span{
 
 .nav-invert .navbar .nav {
     float: left;
+}
+
+.navbar__contact{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__ancre{
+    display: flex !important;
+    padding: 5px;
 }
 
 .nav-invert .navbar-header,
@@ -744,7 +763,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 
@@ -794,6 +813,14 @@ h2 {
     line-height: 1.4em;
 }
 
+.title__1{
+    margin: auto;
+    max-width: fit-content;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid 5px #F3976C;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -838,7 +865,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -913,9 +940,6 @@ h4 {
     background-image: url("../img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("../img/lines-h2-bg.png");
-}
 
 .bg-banniere {
     background-image: url("../img/agence-la-panthere.jpg");
